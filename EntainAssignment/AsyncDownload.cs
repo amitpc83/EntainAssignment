@@ -9,7 +9,7 @@ namespace EntainAssignment
 {
     public static class AsyncDownload
     {
-        public static async Task<string[]> DownloadUrlAsync1(IEnumerable<string> urls, int maxConcurrentLimit)
+        public static async Task<string[]> DownloadUrlAsync(IEnumerable<string> urls, int maxConcurrentLimit)
         {
             using (var client = new HttpClient())
             {

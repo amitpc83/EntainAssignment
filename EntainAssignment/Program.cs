@@ -18,7 +18,7 @@
                 "https://youtube.com"
                 // add more urls as needed
             };
-            var output = AsyncDownload.DownloadUrlAsync1(urls, 2);
+            var output = AsyncDownload.DownloadUrlAsync(urls, 2);
             foreach (var item in output.Result)
             {
                 Console.WriteLine(item);
